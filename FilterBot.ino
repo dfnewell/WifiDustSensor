@@ -80,7 +80,6 @@ void setup() {
 
   time_now = 0;
   Serial.begin(115200);
-  while (!Serial) {} // Wait for the Serial monitor to be opened
   delay(100);
   pinMode(ledPin, OUTPUT);
   // attempt to connect to Wifi network:
